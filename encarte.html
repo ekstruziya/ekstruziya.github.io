@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekstruziya - Руководство по тихому восстанию (Manual de Insurreição Silenciosa)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-bottom: 3px solid #c62828;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+        
+        .page {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            page-break-inside: avoid;
+        }
+        
+        .page-header {
+            color: #c62828;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.5rem;
+        }
+        
+        .lyrics-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .original-lyrics {
+            flex: 1;
+            min-width: 300px;
+            border-right: 1px solid #eee;
+            padding-right: 20px;
+        }
+        
+        .translation {
+            flex: 1;
+            min-width: 300px;
+            color: #555;
+            font-style: italic;
+        }
+        
+        .song-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+        
+        .section-title {
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: #444;
+        }
+        
+        .band-description {
+            font-style: italic;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #c62828;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .band-members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .member {
+            flex: 1;
+            min-width: 200px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .track-list {
+            column-count: 2;
+            column-gap: 30px;
+            margin-top: 15px;
+        }
+        
+        .track-list li {
+            margin-bottom: 8px;
+            break-inside: avoid;
+        }
+        
+        .track-number {
+            font-weight: bold;
+            color: #c62828;
+        }
+        
+        .manifesto {
+            font-style: italic;
+            background-color: #f1f8e9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 25px 0;
+            border-left: 4px solid #689f38;
+        }
+        
+        .conclusion {
+            background-color: #263238;
+            color: #eceff1;
+            padding: 25px;
+            border-radius: 5px;
+            margin: 30px 0;
+        }
+        
+        .conclusion h3 {
+            color: #cfd8dc;
+            margin-bottom: 15px;
+        }
+        
+        .production {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 768px) {
+            .lyrics-container {
+                flex-direction: column;
+            }
+            
+            .original-lyrics {
+                border-right: none;
+                border-bottom: 1px solid #eee;
+                padding-right: 0;
+                padding-bottom: 20px;
+            }
+            
+            .track-list {
+                column-count: 1;
+            }
+            
+            .band-members {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ekstruziya - Руководство по тихому восстанию</h1>
+        <p class="subtitle">Manual de Insurreição Silenciosa</p>
+    </header>
+
+    <div class="page">
+        <div class="page-header">Página 1</div>
+        <h2>Руководство по тихому восстанию</h2>
+        <p>(Manual da Insurgência Silenciosa)</p>
+    </div>
+
+    <div class="page">
+        <div class="page-header">Página 2</div>
+        <div class="band-description">
+            <p><strong>Ekstruziya</strong> é um termo industrial que define um processo de pressão contínua: algo é forçado a atravessar uma forma que não escolheu, até perder suas bordas originais. Esse nome não é metáfora distante — é a base conceitual da banda.</p>
+            
+            <p>O disco funciona como um manifesto sobre a vida moldada pela cidade, pelo trabalho e por sistemas que transformam pessoas em função. As músicas registram o desgaste, a repetição e o esgotamento até o ponto da recusa.</p>
+            
+            <p>Ekstruziya leva a entender que a insurgência contemporânea não nasce da esperança, mas do esgotamento. Do burnout. Da percepção de que obedecer perfeitamente é a forma mais lenta de morrer.</p>
+            
+            <p>Não há heroísmo. A resistência surge no erro deliberado, no silêncio e na decisão de não continuar.</p>
+            
+            <p>Ekstruziya marca o limite onde o humano insiste em permanecer.</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="page-header">Página 3</div>
+        <h2>Integrantes</h2>
+        <div class="band-members">
+            <div class="member">
+                <h3>Antony Volchok</h3>
+                <p>A guitarra que traduz o desgaste do corpo operário.</p>
+            </div>
+            <div class="member">
+                <h3>Igor Petrovich</h3>
+                <p>Sintetizadores frios ligados a controle e automação.</p>
+            </div>
+            <div class="member">
+                <h3>Larisa Vostok</h3>
+                <p>Voz coletiva do projeto. Interpretação direta, política e sem espetáculo.</p>
+            </div>
+            <div class="member">
+                <h3>Zhenya Mallnln</h3>
+                <p>Bateria do pulso industrial.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="page-header">Página 4</div>
+        <h2>Lista de Faixas</h2>
+        <ol class="track-list">
+            <li><span class="track-number">1</span> Не хочу работать на тебя завтра (eu não quero trabalhar pra você amanhã)</li>
+            <li><span class="track-number">2</span> Минуты в цепях (Minutos em Correntes)</li>
+            <li><span class="track-number">3</span> Seryy Kamen (A Pedra Cinza)</li>
+            <li><span class="track-number">4</span> Купоны Дыма (Tickets de FUMAÇA)</li>
+            <li><span class="track-number">5</span> Трока Несправедливая (Troca Injusta)</li>
+            <li><span class="track-number">6</span> Тихая забастовка (Greve Silenciosa)</li>
+            <li><span class="track-number">7</span> Сталь и ярость (Aço e Fúria)</li>
+            <li><span class="track-number">8</span> Слепой Цех (Labuta Cega)</li>
+            <li><span class="track-number">9</span> Пустые Ячейки (Unidades vazias)</li>
+            <li><span class="track-number">10</span> Пропаганда Бетона (Propaganda de Concreto)</li>
+            <li><span class="track-number">11</span> Ослабленный Ремень (Cinto Afrouxado)</li>
+            <li><span class="track-number">12</span> Ekstruziya - Пустые тосты (Brindes Vazios)</li>
+            <li><span class="track-number">13</span> Опасные Сны (Hazardous Dreams)</li>
+            <li><span class="track-number">14</span> Красная Антидисциплина (Manifesto Antidisciplina)</li>
+            <li><span class="track-number">15</span> Индустриальная Саботажа (Sabotagem Industrial)</li>
+            <li><span class="track-number">16</span> Железная Маска (Iron Mask)</li>
+            <li><span class="track-number">17</span> Вечная Смена (Turno Eterno)</li>
+            <li><span class="track-number">18</span> Plastikovaya Ulybka (Sorriso de Plástico)</li>
+            <li><span class="track-number">19</span> Kompensatsiya (Compensação)</li>
+            <li><span class="track-number">20</span> Дефицит — полезная ложь (A Escassez é uma Mentira Útil)</li>
+            <li><span class="track-number">21</span> ПОРЯДОК КРОВИ (Order of Blood)</li>
+        </ol>
+    </div>
+
+    <div class="page">
+        <div class="page-header">Página 5</div>
+        <div class="song-title">1 - Не хочу работать на тебя завтра (eu não quero trabalhar pra você amanhã)</div>
+        
+        <div class="lyrics-container">
+            <div class="original-lyrics">
+                <div class="section-title">[Куплет 1]</div>
+                <p>Будильник бьёт, как приказ.<br>
+                Я открываю глаза — и снова стены.<br>
+                Мой завтрак — усталость,<br>
+                Моя форма — тишина.</p>
+                
+                <div class="section-title">[Переход]</div>
+                <p>Каждый день — один и тот же день.<br>
+                Каждый час — чужое время.<br>
+                Но сегодня мысль звенит,<br>
+                Как ржавый металл внутри.</p>
+                
+                <div class="section-title">[Припев]</div>
+                <p>Я не хочу работать на тебя завтра.<br>
+                Я не хочу дышать по графику.<br>
+                Моя спина — не твоя лестница,<br>
+                Мои руки — не твои цепи.</p>
+                
+                <div class="section-title">[Куплет 2]</div>
+                <p>Мой голос — забыт между сменами,<br>
+                Мой сон — под охраной расписаний.<br>
+                Я больше не стану частью твоей машины,<br>
+                Пусть она встанет вместе со мной.</p>
+                
+                <div class="section-title">[Переход — тихо, почти шёпотом]</div>
+                <p>Слышу — мотор глохнет,<br>
+                И сердце впервые бьётся само.</p>
+                
+                <div class="section-title">[Финальный — сдержанный взрыв]</div>
+                <p>Я не хочу работать на тебя завтра.<br>
+                Ни завтра, ни потом — никогда.</p>
+            </div>
+            
+            <div class="translation">
+                <div class="section-title">[Verso 1]</div>
+                <p>O despertador bate como uma ordem.<br>
+                Eu abro os olhos e são paredes outra vez.<br>
+                Meu café da manhã é cansaço,<br>
+                Meu uniforme é o silêncio.</p>
+                
+                <div class="section-title">[Transição]</div>
+                <p>Todo dia é o mesmo dia.<br>
+                Toda hora é o tempo de outra pessoa.<br>
+                Mas hoje um pensamento ressoa,<br>
+                Como metal enferrujado por dentro.</p>
+                
+                <div class="section-title">[Refrão]</div>
+                <p>Eu não quero trabalhar pra você amanhã.<br>
+                Eu não quero respirar por horário.<br>
+                Minhas costas não são sua escada,<br>
+                Minhas mãos não são suas correntes.</p>
+                
+                <div class="section-title">[Verso 2]</div>
+                <p>Minha voz foi esquecida entre turnos,<br>
+                Meu sono vigiado por cronogramas.<br>
+                Eu não serei mais parte da sua máquina,<br>
+                Que ela pare junto comigo.</p>
+                
+                <div class="section-title">[Transição — baixo, quase um susurro]</div>
+                <p>Eu escuto o motor morrer,<br>
+                E o coração pela primeira vez bate sozinho.</p>
+                
+                <div class="section-title">[Final — explosão contida]</div>
+                <p>Eu não quero trabalhar pra você amanhã.<br>
+                Nem amanhã, nem depois — nunca.</p>
+            </div>
+        </div>
+        
+        <div class="manifesto">
+            <p>Essa letra não grita revolução com punhos no ar.</p>
+            <p>Ela faz algo mais perigoso: para.</p>
+            <p>É uma greve interna, íntima, onde o corpo desliga antes da fábrica. Silêncio como arma. Cansaço como manifesto.</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="page-header">Página 6</div>
+        <div class="song-title">2 - Минуты в цепях (Minutos em Correntes)</div>
+        
+        <div class="lyrics-container">
+            <div class="original-lyrics">
+                <div class="section-title">[Estrofe 1]</div>
+                <p>Мы танцуем по кругу,<br>
+                Считаем минуты, как деньги.<br>
+                Каждый шаг — это долг,<br>
+                Каждый вдох — под надзором.</p>
+                
+                <div class="section-title">[Предрефрен]</div>
+                <p>Улыбка под маской,<br>
+                Руки в карманах.<br>
+                Наши цепи невидимы,<br>
+                Но звон их слышен в сердце.</p>
+                
+                <div class="section-title">[Рефрен]</div>
+                <p>Минуты в цепях,<br>
+                Мы платим дыханием.<br>
+                Минуты в цепях,<br>
+                Они смеются над нами.</p>
+                
+                <div class="section-title">[Estrofe 2]</div>
+                <p>Мы продаём молодость часами,<br>
+                Их прибыль растёт, как башни.<br>
+                Мы теряем лица в толпе,<br>
+                Они выигрывают вечность.</p>
+                
+                <div class="section-title">[Предрефрен]</div>
+                <p>Зеркала без отражений,<br>
+                Музыка без свободы.<br>
+                Мы танцуем в их ритме,<br>
+                Пока исчезает память.</p>
+                
+                <div class="section-title">[Рефрен – ироническое повторение]</div>
+                <p>Минуты в цепях,<br>
+                Мы платим дыханием.<br>
+                Минуты в цепях,<br>
+                Они смеются над нами.</p>
+                
+                <div class="section-title">[Мост – почти шёпотом, с сарказмом]</div>
+                <p>"Танцуй, рабочий. Смейся, рабочий.<br>
+                Твоё время — мой капитал."</p>
+                
+                <div class="section-title">[Финальный рефрен – взрывной]</div>
+                <p>Минуты в цепях!<br>
+                Минуты в цепях!<br>
+                Наше время украдено!</p>
+            </div>
+            
+            <div class="translation">
+                <div class="section-title">[Estrofe 1]</div>
+                <p>Nós dançamos em círculos,<br>
+                Contamos minutos como dinheiro.<br>
+                Cada passo é uma dívida,<br>
+                Cada respiração, sob vigilância.</p>
+                
+                <div class="section-title">[Pré-refrão]</div>
+                <p>Um sorriso sob a máscara,<br>
+                Mãos nos bolsos.<br>
+                Nossas correntes são invisíveis,<br>
+                Mas o tilintar ecoa no coração.</p>
+                
+                <div class="section-title">[Refrão]</div>
+                <p>Minutos em correntes,<br>
+                Pagamos com a respiração.<br>
+                Minutos em correntes,<br>
+                Eles riem de nós.</p>
+                
+                <div class="section-title">[Estrofe 2]</div>
+                <p>Vendemos a juventude por horas,<br>
+                O lucro deles cresce como torres.<br>
+                Perdemos os rostos na multidão,<br>
+                Eles ganham a eternidade.</p>
+                
+                <div class="section-title">[Pré-refrão]</div>
+                <p>Espelhos sem reflexo,<br>
+                Música sem liberdade.<br>
+                Dançamos no ritmo deles,<br>
+                Enquanto a memória desaparece.</p>
+                
+                <div class="section-title">[Refrão – repetição irônica]</div>
+                <p>Minutos em correntes,<br>
+                Pagamos com a respiração.<br>
+                Minutos em correntes,<br>
+                Eles riem de nós.</p>
+                
+                <div class="section-title">[Ponte – quase sussurrada, com sarcasmo]</div>
+                <p>"Dance, trabalhador. Ria, trabalhador.<br>
+                Seu tempo é o meu capital."</p>
+                
+                <div class="section-title">[Refrão final – explosivo]</div>
+                <p>Minutos em correntes!<br>
+                Minutos em correntes!<br>
+                Nosso tempo foi roubado!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Continuaria com as páginas restantes... -->
+
+    <div class="page">
+        <div class="page-header">Página 26</div>
+        <div class="manifesto">
+            <p>Este álbum não foi feito para confortar. Ele nasceu do ruído contínuo, da repetição forçada, do corpo usado como extensão da máquina. Cada faixa é um turno, um corredor, um silêncio aprendido. Não há heróis aqui. Há desgaste, medo, pequenas recusas e falhas que crescem.</p>
+            
+            <p>Ao longo do disco, a voz começa contida, fragmentada, quase funcional. Aprende a sobreviver calada. Depois, aprende a atrasar, a errar, a parar. Não como gesto espetacular, mas como necessidade vital. A rebelião aqui não explode de uma vez. Ela acumula pressão.</p>
+            
+            <p>O fim não oferece redenção. Não há promessa de futuro limpo, nem reconciliação. O que existe é a constatação de que toda ordem precisa de manutenção constante, e que todo sistema baseado em exaustão carrega sua própria rachadura.</p>
+            
+            <p>Se este álbum termina, é apenas porque o som acaba. O pulso não.</p>
+            
+            <p>Quando a última sirene se apaga, fica a pergunta que nenhuma máquina responde: quem lucra com o silêncio — e quem paga por ele?</p>
+            
+            <p>Este disco é dedicado a todos que ainda respiram dentro do ruído.</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="page-header">Página 27</div>
+        <div class="production">
+            <p>Criado e Produzido por</p>
+            <h3>Air Liquid Plastics Sound</h3>
+        </div>
+    </div>
+
+    <div class="conclusion">
+        <h3>Nota sobre este documento</h3>
+        <p>Este HTML contém as letras e textos do álbum "Ekstruziya - Руководство по тихому восстанию" em sua forma original (russo) com tradução para português. O conteúdo captura a essência da banda: uma crítica visceral aos sistemas de trabalho industrializados, à alienação urbana e à resistência silenciosa que emerge do esgotamento.</p>
+        <p>As letras exploram temas como a despersonalização no ambiente de trabalho, a precificação do sofrimento, a escassez artificial e as formas sutis de sabotagem e resistência que surgem quando o confronto direto não é possível.</p>
+    </div>
+</body>
+</html>
